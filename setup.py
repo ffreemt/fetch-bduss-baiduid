@@ -1,3 +1,4 @@
+''' setup.py '''
 # pylint: disable=invalid-name
 from pathlib import Path
 import re
@@ -5,7 +6,7 @@ import re
 from setuptools import setup, find_packages
 
 name = """fetch-bduss-baiduid"""
-description = '»ñÈ¡ BDUSS ºÍ BAIDUID'
+description = 'è·å– BDUSS å’Œ BAIDUID'
 dir_name, *_ = find_packages()
 # dir_name = 'fetch_bduss_id'
 curr_dir = Path(__file__).parent
