@@ -1,5 +1,5 @@
 # fetch-bduss-baiduid ![Python package](https://github.com/ffreemt/fetch-bduss-baiduid/workflows/Python3.6|3.7%20package/badge.svg) [![codecov](https://codecov.io/gh/ffreemt/fetch-bduss-baiduid/branch/master/graph/badge.svg)](https://codecov.io/gh/ffreemt/fetch-bduss-baiduid)
-»ñÈ¡ BDUSS ºÍ BAIDUID
+ç®€å•æ–¹ä¾¿ BDUSS å’Œ BAIDUID
 
 ### Installation
 Not available yet
