@@ -2,8 +2,8 @@
 简单方便 BDUSS 和 BAIDUID
 
 ### Installation
-Not available yet
-```pip install fetch-bduss-baiduid```
+
+```pip install fetch-bduss-baiduid -U```
 
 To validate installation
 ```
