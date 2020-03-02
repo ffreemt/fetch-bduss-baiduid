@@ -18,7 +18,7 @@ targz = 'v_' + version.replace('.', '') + '.tar.gz'
 install_requires = [
     'browser-cookie3',
     'pyperclip',
-    'logero',
+    'logzero',
 ]
 
 README_rst = f'{curr_dir}/README.md'
