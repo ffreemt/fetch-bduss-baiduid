@@ -1,5 +1,7 @@
 '''
-fetch_bduss_id
+fetch_bduss_id.py
+
+https://github.com/ffreemt/fetch-bduss-baiduid
 '''
 
 from typing import Union, List, Optional
@@ -61,3 +63,21 @@ def fetch_bduss_id(
             except Exception as exc:
                 logger.error('Unable to copy to clipboard: %s', exc)
     return cj_dict
+
+
+if __name__ == '__main__':
+    try:
+        _ = fetch_bduss_id()
+        print(_)
+        print('\nCtrl-v 拷出 BDUSS')
+        _ = _.get('BDUSS')
+        if _ is None:
+            _ = 0
+        else:
+            _ = len(_)
+    except Exception as exc:
+        logger.error('%s', exc)
+        _ = 0
+    finally:
+        if _ < 150:  # 192
+            logger.warning(' 如果没有用Chrome登录百度的话，先登录百度... ')
