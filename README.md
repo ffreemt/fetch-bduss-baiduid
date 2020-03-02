@@ -5,22 +5,21 @@
 Not available yet
 ```pip install fetch-bduss-baiduid```
 
-Validate installation
+To validate installation
 ```
 python -c "import fetch_bduss_id; print(fetch_bduss_id.__version__)"
-0.0.1
+# 0.0.1 或当时版本号
 ```
 
 ### Usage
+先用Chrome浏览器登录 baidu。
 
 ```
-import asyncio
+import pyperclip
 from fetch_bduss_id import fetch_bduss_id
 
-asyncio.get_event_loop().run_until_complete(fetch_bduss_id('test this and that'))
-# '测试这个和那个'
+bduss, baiduid = fetch_bduss_id()
+print(bduss, baiduid)
+# 输出： 你的 BDUSS 和 BAIDUID
+# 并可从系统剪贴板里拷出 BDUSS
 ```
-
-### Acknowledgments
-
-* Thanks to everyone whose code was used
