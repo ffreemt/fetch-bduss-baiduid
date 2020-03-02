@@ -1,4 +1,4 @@
-# fetch-bduss-baiduid ![Python package](https://github.com/ffreemt/fetch-bduss-baiduid/workflows/Python3.6|3.7%20package/badge.svg) [![codecov](https://codecov.io/gh/ffreemt/fetch-bduss-baiduid/branch/master/graph/badge.svg)](https://codecov.io/gh/ffreemt/fetch-bduss-baiduid)[![PyPI version](https://badge.fury.io/py/fetch-bduss-baiduid.svg)](https://badge.fury.io/py/fetch-bduss-baiduid)
+# fetch-bduss-baiduid ![Python package](https://github.com/ffreemt/fetch-bduss-baiduid/workflows/Python3.6|3.7%20package/badge.svg)[![codecov](https://codecov.io/gh/ffreemt/fetch-bduss-baiduid/branch/master/graph/badge.svg)](https://codecov.io/gh/ffreemt/fetch-bduss-baiduid)[![PyPI version](https://badge.fury.io/py/fetch-bduss-baiduid.svg)](https://badge.fury.io/py/fetch-bduss-baiduid)
 简单方便 BDUSS 和 BAIDUID
 
 ### Installation
